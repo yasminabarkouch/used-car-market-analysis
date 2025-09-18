@@ -58,5 +58,6 @@ The ML model is integrated within the main Python file (`used_car_analysis.py`) 
 ## Author
 
 Yasmina Barkouch — Data Analyst Enthusiast
+
 LinkedIn Profile :www.linkedin.com/in/yasminabarkouch
 
