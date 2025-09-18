@@ -1,4 +1,4 @@
-# Used Car Market Analysis
+# Used Car Market Trends and Predictive Modeling
 
 ## Project Overview
 This project analyzes the used car market to understand the key factors affecting car selling prices. Using a Kaggle dataset with over 558,000 rows and 16 columns, the project covers data cleaning, exploratory data analysis (EDA), and a simple machine learning model to predict car prices.
