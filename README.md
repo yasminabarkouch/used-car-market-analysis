@@ -54,6 +54,9 @@ This scatter plot shows how well the Linear Regression model predicts car prices
 4. **Car values vary by region**, with higher prices in states like California and Florida.
 5. **ML model predicts prices fairly well**, supporting smarter pricing strategies.
 
+## References
+Dataset Link : https://www.kaggle.com/datasets/mostafamamdouh32/vechicle-sales-price-analysis
+
 ## Author
 
 Yasmina Barkouch — Data Analyst Enthusiast
