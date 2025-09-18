@@ -16,7 +16,7 @@ A **Linear Regression model** is trained at the end of the analysis to predict s
 - **Data Split:** 80% Training / 20% Testing
 - **Evaluation Metrics:** Mean Squared Error (MSE) and R² score (closer to 1 means better prediction)
 
-The ML model is integrated within the main Python file (`used_car_analysis.py`) after the EDA and visualizations, allowing full analysis and prediction in one place.
+The ML model is integrated within the main Python file (`used-car-trends-predictive-modeling.py`) after the EDA and visualizations, allowing full analysis and prediction in one place.
 
 ## Visualizations
 
