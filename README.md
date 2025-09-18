@@ -9,7 +9,14 @@ This project analyzes the used car market to understand the key factors affectin
 - **Market Value vs Actual Selling Price:** Compare the estimated market value (MMR) with the actual selling price.
 - **Regional Differences:** Examine how car values vary across different states.
 - **Machine Learning Model:** Predict car prices using features like year, mileage, MMR, and car age.
+  
+## Machine Learning Model
+A **Linear Regression model** is trained at the end of the analysis to predict selling prices.
+- **Features Used:** Year, Mileage, MMR, Car Age
+- **Data Split:** 80% Training / 20% Testing
+- **Evaluation Metrics:** Mean Squared Error (MSE) and R² score (closer to 1 means better prediction)
 
+The ML model is integrated within the main Python file (`used_car_analysis.py`) after the EDA and visualizations, allowing full analysis and prediction in one place.
 
 ## Visualizations
 
@@ -39,14 +46,6 @@ This scatter plot shows how well the Linear Regression model predicts car prices
 - Points above the line are underestimated, and points below are overestimated.
   
 ![Actual vs Predicted](visuals/actual_predict.png)
-
-## Machine Learning Model
-A **Linear Regression model** is trained at the end of the analysis to predict selling prices.
-- **Features Used:** Year, Mileage, MMR, Car Age
-- **Data Split:** 80% Training / 20% Testing
-- **Evaluation Metrics:** Mean Squared Error (MSE) and R² score (closer to 1 means better prediction)
-
-The ML model is integrated within the main Python file (`used_car_analysis.py`) after the EDA and visualizations, allowing full analysis and prediction in one place.
 
 ## Key Insights
 1. **Age and mileage lower a car’s value.**
